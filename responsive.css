@@ -8,7 +8,7 @@
       
     }
     .nav-menu ul{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .nav-img-title{
         font-size: 1rem;

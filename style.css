@@ -346,7 +346,7 @@ background: url(./Images/Group\ 39.png), lightgray 50% / cover no-repeat;
     border-radius: 16px;
 border: 2px solid #FFF;
 background: rgba(255, 255, 255, 0.80);
-backdrop-filter: blur(2.5px);
+
 }
 .deal-icon{
     font-size: 1.3rem;
@@ -443,12 +443,13 @@ backdrop-filter: blur(2.5px);
     padding: 15px;
     background-color:rgba(250, 114, 17) ;
     border-radius: 8px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom: px;
 }
 .newsletter-container{
     max-width: 1400px;
     margin:50px auto;
+    position: relative;
 }
 .newsletter-section{
   
@@ -462,16 +463,17 @@ backdrop-filter: blur(2.5px);
 .newsleter-content{
     border: 2px solid rgba(250, 114, 17) ;
     width: 40%;
-    padding: 50px;
+    padding: 30px;
     border-radius: 10px;
 }
 .newsletter-img{
    
     width: 60%;
     
+    
    
 }
-.newsletter-img > img{
+.newsletter-img  img{
     width: 100%;
     height: 100%;
     /* position: relative; */
@@ -518,6 +520,11 @@ background: rgba(19, 19, 24, 0.05);
     color: #FFF; 
     border-radius: 10px;
     font-size: 1.8rem;
+    margin-left:auto;
+    position: absolute;
+    top:50% ;
+    right: 0;
+    transform: rotate(-35deg);
    
 }
 /* .save-content{
@@ -562,10 +569,10 @@ background: rgba(19, 19, 24, 0.05);
       
     }
     .nav-menu ul{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
     .nav-img-title{
-        font-size: 1rem;
+        font-size: 1.rem;
     }
     .banner-section{
         
@@ -578,7 +585,8 @@ background: rgba(19, 19, 24, 0.05);
         padding: 0;
     }
     .banner-content h1{
-        font-size: 1rem;
+        font-size: 1.8rem;
+        padding-top: 50px;
     }
     .banner-content p{
         font-size: 1rem;
@@ -588,6 +596,8 @@ background: rgba(19, 19, 24, 0.05);
     }
     .banner-select form >input{
         margin-top: 10px;
+        display: block;
+        width: 80%;
     }
     .banner-btn{
         margin-top: 10px;
@@ -677,17 +687,21 @@ background: rgba(19, 19, 24, 0.05);
     
 }
 .discount-banner1{
-    padding: 0;
+    padding: 30px;
     width: 100%;
-    height: 50%;
+    height: 100%;
     flex-direction: column;
+    margin-left: 0;
+   
 }
 .banner1-detail{
     width: 100%;
-    padding:20px;
-    margin-left: 0;
+    padding:px;
+    /* margin-left: 0;
     margin-right: 0;
-    background-size: contain;
+    background-size: cover; */
+    margin-left: auto;
+
 }
 .place-container{
     flex-direction: column;
@@ -727,6 +741,16 @@ background: rgba(19, 19, 24, 0.05);
 .footer-desc{
     font-size: 1rem;
 
+}
+.save-up{
+    width: 200px;
+    padding: 0;
+    font-size: 1rem;
+    position: relative;
+    bottom: 120px;
+}
+.newsletter-container{
+    
 }
 
 
