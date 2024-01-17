@@ -382,7 +382,7 @@ background: rgba(255, 255, 255, 0.80);
 }
 #discount-banner2{
     background-image: url(./Images/Group\ 40.png);
-    justify-content: left;
+    /* justify-content: left; */
 }
 #banner1-detail{
     margin-left: 50px;
@@ -446,6 +446,57 @@ background: rgba(255, 255, 255, 0.80);
     margin-top: 40px;
     margin-bottom: px;
 }
+/* transport section start */
+.transport-section{
+    max-width: 1400px;
+    margin: 50px auto;
+   
+}
+.transport-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.transport--title-desc{
+    width:600px;
+    margin: 0 auto;
+    text-align: center;
+}
+   
+    
+.transport-content{
+    
+    text-align: center;
+    background-color: #f8eded;
+    border-radius: 10px;
+   
+}
+.transport-section h2{
+    font-size: 3rem;
+}
+.transport-section p{
+    font-size: 1.3rem;
+    padding-top: 30px;
+}
+.transport-content h3{
+    font-size: 2rem;
+    padding: 10px;
+}
+.transport-content p{
+    font-size: 1.2rem;
+    color: #36363b;
+}
+.transport-img img{
+    width: 500px;
+    height: 100%;
+    border-radius: 10px;
+}
+.transport-img{
+   
+}
+/*  start newsletter dection */
 .newsletter-container{
     max-width: 1400px;
     margin:50px auto;
@@ -523,7 +574,8 @@ background: rgba(19, 19, 24, 0.05);
     margin-left:auto;
     position: absolute;
     top:50% ;
-    right: 0;
+    right:12px;
+    
     transform: rotate(-35deg);
    
 }
@@ -578,12 +630,14 @@ background: rgba(19, 19, 24, 0.05);
         
         width: 100%;
         height: 100%;
+        background-position: center;
     }
     .banner-content{
         width: 100%;
         height: 100%;
         padding: 0;
     }
+    .banner-section
     .banner-content h1{
         font-size: 1.8rem;
         padding-top: 50px;
@@ -692,15 +746,19 @@ background: rgba(19, 19, 24, 0.05);
     height: 100%;
     flex-direction: column;
     margin-left: 0;
+  
    
+}
+#discount-banner2{
+    justify-content: right;
 }
 .banner1-detail{
     width: 100%;
-    padding:px;
+   
     /* margin-left: 0;
     margin-right: 0;
     background-size: cover; */
-    margin-left: auto;
+    margin-left:0;
 
 }
 .place-container{
@@ -723,9 +781,24 @@ background: rgba(19, 19, 24, 0.05);
 .place-desc{
     font-size: 1rem;
 }
+.transport--title-desc{
+    width: 100%;
+}
 .newsletter-section{
     flex-direction: column;
 }
+.transport--title-desc h2{
+    font-size:1.9rem ;
+}
+.transport--title-desc p{
+    font-size:1rem ;
+    }
+    .transport-img img{
+        width: 100%;
+    }
+    .transport-container{
+        flex-direction: column;
+    }
 .newsleter-content{
     width: 100%;
     padding: 20px;
@@ -749,9 +822,7 @@ background: rgba(19, 19, 24, 0.05);
     position: relative;
     bottom: 120px;
 }
-.newsletter-container{
-    
-}
+
 
 
 
